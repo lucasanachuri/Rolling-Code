@@ -33,10 +33,6 @@ footer {
   height: 12vh;
 }
 
-nav h1 {
-  margin: 0;
-}
-
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -64,21 +60,22 @@ nav h1 {
 .categorias {
   display: flex;
   justify-content: space-around;
-  border-radius: 200px;
+  border-radius: 16px;
   align-items: center;
   padding: 20px;
   margin: 10px;
-  border: solid green;
+  border: solid lightslategrey;
 }
 
 .categoria {
+  font-family: "Poppins";
+  border-radius: 12px;
   background-color: lightgreen;
   padding: 10px;
   text-align: center;
   padding: 20px;
   margin: 10px;
   border: 50px;
-  border-color: #a50505;
 }
 
 .productos {
