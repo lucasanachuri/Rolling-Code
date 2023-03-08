@@ -33,6 +33,10 @@ footer {
   height: 12vh;
 }
 
+nav h1 {
+  margin: 0;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -53,6 +57,8 @@ footer {
 .banner {
   height: 200px;
   background-color: #ccc;
+  justify-content: center;
+  align-content: center;
   background-size: cover;
   background-position: center;
 }
