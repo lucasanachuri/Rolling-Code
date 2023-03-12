@@ -146,3 +146,21 @@ nav h1 {
   align-items: center;
   text-align: center;
 }
+
+@media (max-width: 576px) {
+  body {
+    grid-template-columns: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    grid-template-columns: auto auto auto;
+  }
+}
